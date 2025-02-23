@@ -70,7 +70,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="https://source.unsplash.com/1600x500/?future,technology" alt="AGE Futuristico" class="hero-image">
+    <img src="Immagine WhatsApp 2025-02-22 ore 12.12.20_19b1d782.jpg" alt="AGE Futuristico" class="hero-image">
     <div class="container">
         <h1>Benvenuto in AGE</h1>
         <p>AGE - Archivio Genetico Ereditario collega il tuo DNA alla tua eredità digitale, permettendoti di lasciare un segno nel futuro.</p>

@@ -1,0 +1,29 @@
+/* Rende lo sfondo accattivante con un'animazione di particelle */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d0d; /* Sfondo scuro */
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* Contenitore principale */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Titolo */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+    -webkit-background-clip: text; /* Compatibilità con WebKit */
+    background-clip: text; /* Standard per altri browser */
+    -webkit-text-fill-color: transparent; /* Testo trasparente per mostrare il gradiente */
+}

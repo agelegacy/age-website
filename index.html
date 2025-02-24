@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGE - Archivio Genetico Ereditario</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+            margin: 10px 0;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+        .button {
+            background-color: #4f46e5;
+            border: none;
+            color: white;
+            padding: 12px 24px;
+            font-size: 1em;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+        .button:hover {
+            background-color: #4338ca;
+        }
+        .extra-info {
+            display: none;
+            margin-top: 30px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AGE - Archivio Genetico Ereditario</h1>
+        <img src="logo.png" alt="AGE Logo" class="logo">
+        <p>AGE rivoluziona il modo in cui conserviamo la nostra memoria e identità, unendo DNA, IA ed eredità digitale.</p>
+        <button class="button" onclick="document.querySelector('.extra-info').style.display='block'">Scopri di più</button>
+        <div class="extra-info">
+            <h2>Come Funziona AGE?</h2>
+            <p>AGE permette di creare un archivio digitale sicuro, accessibile solo dai tuoi discendenti grazie al DNA.</p>
+            <ul>
+                <li><strong>Profilo Digitale:</strong> Archivia foto, video e documenti importanti.</li>
+                <li><strong>Accesso Ereditario:</strong> Solo i tuoi discendenti possono sbloccare i tuoi dati con il DNA.</li>
+                <li><strong>Albero Genealogico Interattivo:</strong> Unisci passato e futuro con una genealogia innovativa.</li>
+                <li><strong>Archivio Medico:</strong> Aiuta la prevenzione sanitaria con dati genetici familiari.</li>
+                <li><strong>Messaggi Post-Mortem:</strong> Lascia video e lettere per il futuro.</li>
+            </ul>
+            <p>AGE è il futuro della memoria umana, un progetto senza precedenti nel panorama della tecnologia e della genealogia.</p>
+        </div>
+    </div>
+</body>
+</html>
